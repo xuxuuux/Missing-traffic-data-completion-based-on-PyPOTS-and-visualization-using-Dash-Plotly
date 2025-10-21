@@ -12,7 +12,7 @@ This project uses the **SAITS** model from [PyPOTS](https://github.com/WenjieDu/
 
 The traffic data has a shape of (228, 12672), where 228 represents the number of time steps and each time step has 12,672 features. The figure below shows the variation of a single feature across different time steps.
 
-<img src="D:\主业\github\work3.9的代码环境\traffic1021\pic\originaldata.png" alt="1" style="zoom:30%;" />
+<img src="\pic\originaldata.png" alt="1" style="zoom:30%;" />
 
 ### incomplete data after random cropping
 
@@ -26,9 +26,9 @@ incomplete = data.copy()
 incomplete[mask] = np.nan
 ```
 
-<img src="D:\主业\github\work3.9的代码环境\traffic1021\pic\incompletedata2.png" alt="1" style="zoom:30%;" />
+<img src="pic\incompletedata2.png" alt="1" style="zoom:30%;" />
 
-<img src="D:\主业\github\work3.9的代码环境\traffic1021\pic\incompletedata.png" alt="1" style="zoom:30%;" />
+<img src="pic\incompletedata.png" alt="1" style="zoom:30%;" />
 
 ## SAITS of PyPOTS
 
@@ -88,7 +88,7 @@ In the "trainmodel.py" file, you can load the dataset to train the model.
 
 In this visualization.py, simple Dash and Plotly were used to visualize the traffic time series imputation results of the SAITS model. The result as show in picture:
 
-<img src="D:\主业\github\work3.9的代码环境\traffic1021\pic\resultmodel.png" alt="1" style="zoom:30%;" />
+<img src="pic\resultmodel.png" alt="1" style="zoom:30%;" />
 
 
 
